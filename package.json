@@ -1,0 +1,20 @@
+{
+  "name": "code_on_aws",
+  "version": "1.0.0",
+  "description": "This is the package to be uploaded to aws",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-promise-router": "^4.1.1",
+    "pg": "^8.7.3",
+    "request": "^2.88.2"
+  }
+}
